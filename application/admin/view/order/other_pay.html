@@ -1,0 +1,24 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-10 col-sm-2">订单需支付金额:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input type="text" id="c-sum_money" class="form-control" name="row[sum_money]" style="border: 1px solid #fff;" value="{$row.sum_money|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-10 col-sm-2">实际支付:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-pay_money" class="form-control" name="row[pay_money]" type="text">
+        </div>
+    </div>
+    <input type="hidden" id="c-type" class="form-control" name="row[type]" style="border: 1px solid #fff;" value="{$type|htmlentities}">
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+

@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'Order_no'         => '订单编号',
+    'Sum_money'        => '商品总价',
+    'Payable_money'    => '最终应支付金额',
+    'Payment_from'     => '支付类型',
+    'Payment_from 0'   => '微信',
+    'Payment_from 1'   => '支付宝',
+    'Payment_from 2'   => '现金',
+    'Payment_from 3'   => '刷卡',
+    'Payment_from 4'   => '挂账',
+    'Payment_status'   => '支付状态',
+    'Payment_status 0' => '未支付',
+    'Payment_status 1' => '已支付',
+    'Batch'            => '交易流水号',
+    'Order_status'     => '订单状态  0待支付   1已支付,待评价   2已评价 ',
+    'Pay_money'        => '实际支付金额',
+    'Balcony_id'       => '包厢id',
+    'Balcony_name'     => '包厢名称',
+    'Member_id'        => '会员id',
+    'Createtime'       => '创建时间',
+    'Updatetime'       => '更新时间',
+    'Deletetime'       => '删除时间',
+    'Last_modify'      => '最后一次修改金额时间',
+    'Is_invoice'       => '是否开票  0不开票   1开票',
+    'Is_handle'        => '处理状态',
+    'Is_handle 0'      => '待处理',
+    'Is_handle 1'      => '已处理'
+];

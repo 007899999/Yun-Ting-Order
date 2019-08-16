@@ -1,0 +1,737 @@
+---------------------------------------------------------------
+[ 2019-07-16T09:36:52+08:00 ] 127.0.0.1 GET localhost/fastadmin/public/
+[运行时间：0.128493s] [吞吐率：7.78req/s] [内存消耗：2,387.69kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001613s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011400s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004511s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000805s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000050s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-16T09:36:59+08:00 ] 127.0.0.1 GET localhost/fastadmin/public/admin_yuntingdiancan.php
+[运行时间：1.256999s] [吞吐率：0.80req/s] [内存消耗：3,804.01kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006756s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002474s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000562s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000845s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007397s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.036769s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.019779s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001546s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:37:02+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/admin_yuntingdiancan.php/dashboard?addtabs=1
+[运行时间：2.254563s] [吞吐率：0.44req/s] [内存消耗：3,576.13kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007341s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004168s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000525s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000045s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'type',
+  6 => 'order_count',
+  7 => 'goods_count',
+  8 => 'income',
+  9 => 'member_count',
+  10 => 'lists',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000641s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.999928s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.016808s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.016134s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_member_events` [ RunTime:0.019710s ]
+[ sql ] [ SQL ] SELECT `me`.*,`m`.`avatar`,`m`.`level`,`m`.`nickname`,`m`.`mobile` FROM `yt_member_events` `me` INNER JOIN `yt_member` `m` ON `m`.`id`=`me`.`member_id` WHERE  `eventstime` BETWEEN 962380800 AND 965059200 [ RunTime:0.003382s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012756s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_order` [ RunTime:0.023608s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_member` [ RunTime:0.019498s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_goods` [ RunTime:0.018134s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_goods` WHERE `yt_goods`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT SUM(pay_money) AS tp_sum FROM `yt_order` WHERE (  `payment_status` = '1' ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:37:02+08:00 ] 127.0.0.1 GET localhost/fastadmin/public/admin_yuntingdiancan.php/ajax/lang?callback=define&controllername=index&v=1563241018
+[运行时间：0.985522s] [吞吐率：1.01req/s] [内存消耗：2,639.93kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007761s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1563241018',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002280s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000596s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000307s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000751s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-16T09:37:04+08:00 ] 127.0.0.1 POST localhost/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData
+[运行时间：2.353008s] [吞吐率：0.42req/s] [内存消耗：3,508.05kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.024755s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Dashboard',
+    2 => 'getData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/dashboard?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '6',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009357s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000671s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000085s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->getData[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.025630s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013637s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.030081s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.024220s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001701s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012486s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_order` [ RunTime:0.039977s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563206400 AND 1563292800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563120000 AND 1563206400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563033600 AND 1563120000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562947200 AND 1563033600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562860800 AND 1562947200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562774400 AND 1562860800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562688000 AND 1562774400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562601600 AND 1562688000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562515200 AND 1562601600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562428800 AND 1562515200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562342400 AND 1562428800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562256000 AND 1562342400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562169600 AND 1562256000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1562083200 AND 1562169600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561996800 AND 1562083200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561910400 AND 1561996800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561824000 AND 1561910400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561737600 AND 1561824000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561651200 AND 1561737600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561564800 AND 1561651200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561478400 AND 1561564800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561392000 AND 1561478400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561305600 AND 1561392000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561219200 AND 1561305600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561132800 AND 1561219200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1561046400 AND 1561132800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1560960000 AND 1561046400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1560873600 AND 1560960000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1560787200 AND 1560873600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1560700800 AND 1560787200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1560614400 AND 1560700800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_admin_log` [ RunTime:0.020181s ]
+[ sql ] [ SQL ] INSERT INTO `yt_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"type\":\"2\"}' , '/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '127.0.0.1' , 1563241024) [ RunTime:0.003453s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:37:06+08:00 ] 0.0.0.0 POST localhost/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData
+[运行时间：4.524126s] [吞吐率：0.22req/s] [内存消耗：3,496.02kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013639s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Dashboard',
+    2 => 'getData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/dashboard?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '6',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008177s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001080s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000064s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->getData[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.023311s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015963s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.017538s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.017609s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001792s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010959s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_order` [ RunTime:0.034063s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563235200 AND 1563238800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563231600 AND 1563235200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563228000 AND 1563231600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563224400 AND 1563228000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563220800 AND 1563224400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563217200 AND 1563220800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563213600 AND 1563217200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563210000 AND 1563213600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563206400 AND 1563210000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563202800 AND 1563206400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563199200 AND 1563202800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563195600 AND 1563199200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563192000 AND 1563195600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563188400 AND 1563192000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563184800 AND 1563188400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563181200 AND 1563184800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563177600 AND 1563181200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563174000 AND 1563177600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563170400 AND 1563174000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563166800 AND 1563170400 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563163200 AND 1563166800 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563159600 AND 1563163200 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563156000 AND 1563159600 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_order` WHERE (  `createtime` BETWEEN 1563152400 AND 1563156000 ) AND `yt_order`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_admin_log` [ RunTime:0.017872s ]
+[ sql ] [ SQL ] INSERT INTO `yt_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"type\":\"1\"}' , '/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '0.0.0.0' , 1563241026) [ RunTime:0.003300s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:37:08+08:00 ] 127.0.0.1 POST localhost/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData
+[运行时间：5.619260s] [吞吐率：0.18req/s] [内存消耗：3,500.22kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005230s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Dashboard',
+    2 => 'getData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/dashboard?addtabs=1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '6',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'type' => '3',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002199s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000603s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->getData[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.022633s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005324s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.022938s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.018635s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001178s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002898s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_member` [ RunTime:0.028245s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1563206400 AND 1563292800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1563120000 AND 1563206400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1563033600 AND 1563120000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562947200 AND 1563033600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562860800 AND 1562947200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562774400 AND 1562860800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562688000 AND 1562774400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562601600 AND 1562688000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562515200 AND 1562601600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562428800 AND 1562515200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562342400 AND 1562428800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562256000 AND 1562342400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562169600 AND 1562256000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1562083200 AND 1562169600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561996800 AND 1562083200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561910400 AND 1561996800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561824000 AND 1561910400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561737600 AND 1561824000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561651200 AND 1561737600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561564800 AND 1561651200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561478400 AND 1561564800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561392000 AND 1561478400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561305600 AND 1561392000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561219200 AND 1561305600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561132800 AND 1561219200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1561046400 AND 1561132800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1560960000 AND 1561046400 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1560873600 AND 1560960000 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1560787200 AND 1560873600 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1560700800 AND 1560787200 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yt_member` WHERE (  `createtime` BETWEEN 1560614400 AND 1560700800 ) AND `yt_member`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_admin_log` [ RunTime:0.018752s ]
+[ sql ] [ SQL ] INSERT INTO `yt_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"type\":\"3\"}' , '/fastadmin/public/admin_yuntingdiancan.php/Dashboard/getData' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' , '127.0.0.1' , 1563241028) [ RunTime:0.001993s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:37:08+08:00 ] 127.0.0.1 GET localhost/fastadmin/public/admin_yuntingdiancan.php/ajax/lang?callback=define&controllername=dashboard&v=1563241019
+[运行时间：5.403001s] [吞吐率：0.19req/s] [内存消耗：2,638.83kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000105s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005214s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1563241019',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002597s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000902s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000096s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000696s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-16T09:39:02+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/admin_yuntingdiancan.php/member?addtabs=1
+[运行时间：0.097145s] [吞吐率：10.29req/s] [内存消耗：1,947.70kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007362s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/member?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003974s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-16T09:39:11+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/admin_yuntingdiancan.php/cate?addtabs=1
+[运行时间：2.226740s] [吞吐率：0.45req/s] [内存消耗：3,578.94kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009181s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/cate?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000725s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/cate.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000052s ]
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\cate\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000476s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007472s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.021621s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.017127s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001455s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.999876s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_goods_category` [ RunTime:0.018588s ]
+[ sql ] [ SQL ] SELECT * FROM `yt_goods_category` WHERE `yt_goods_category`.`deletetime` IS NULL ORDER BY `id` DESC [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yt_auth_rule` WHERE  `name` = 'cate' LIMIT 1 [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2019-07-16T09:39:11+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/admin_yuntingdiancan.php/ajax/lang?callback=define&controllername=cate&v=1563241149
+[运行时间：0.089441s] [吞吐率：11.18req/s] [内存消耗：2,636.11kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007777s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/cate?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'cate',
+  'v' => '1563241149',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003289s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000679s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000085s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/cate.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000458s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-16T09:39:14+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/admin_yuntingdiancan.php/cate/index?addtabs=1&sort=weigh&order=desc&_=1563241151822
+[运行时间：2.217796s] [吞吐率：0.45req/s] [内存消耗：3,605.96kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012711s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=111872281.571850319393243700.1557454323080.3699; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1559272948; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946773,1562549397,1562667273,1562836893; PHPSESSID=ehi2h265ea7kgras7qbr533pa4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/fastadmin/public/admin_yuntingdiancan.php/cate?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1563241151822',
+)
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005816s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000775s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/cate.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000077s ]
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Cate.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000547s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.001098s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_group_access` [ RunTime:0.019871s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yt_auth_group_access` `aga` LEFT JOIN `yt_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_auth_rule` [ RunTime:0.021204s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yt_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001251s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003197s ] mysql:host=localhost;dbname=ytdc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yt_goods_category` [ RunTime:0.029631s ]
+[ sql ] [ SQL ] SELECT * FROM `yt_goods_category` WHERE `yt_goods_category`.`deletetime` IS NULL ORDER BY `id` DESC [ RunTime:0.000695s ]

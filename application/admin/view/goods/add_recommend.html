@@ -1,0 +1,56 @@
+<div id="add-form" class="form-horizontal" role="form" data-toggle="validator">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2" style="width: 15%;margin: 7px 0">菜&nbsp;&nbsp;&nbsp;品:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 40%">
+            <input id="c-goods_id" class="form-control" name="row[goods_id]" type="text" value="{$info.name}" readonly="readonly">
+            <input type="hidden" value="{$info.id}" id="goods_id"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2" style="width: 15%;margin: 7px 0">选择推荐:</label>
+        <div class="col-xs-12 col-sm-8" style="width: 40%">
+            <select id="c-recommend_id" class="form-control" name="row[recommend_id]" type="text">
+                {volist name='goods' id='v'}
+                    <option value="{$v.id}">{$v.name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <a type="submit" class="btn btn-success btn-embossed" onclick="submitResult()">{:__('OK')}</a>
+        </div>
+    </div>
+</div>
+<script>
+    function submitResult() {
+        $.ajax({
+            type:"POST",
+            url:"goods/addRecommend",
+            dataType:"json",
+            data:{
+                recommend_id:$("#c-recommend_id").val(),
+                goods_id:$("#goods_id").val(),
+            },
+            success:function(data){
+                if (data == 1){
+                    layer.alert("操作成功", {icon: 6},function () {
+                        // 获得frame索引
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //关闭当前frame
+                        parent.layer.close(index);
+                        parent.location.reload();
+                    });
+                }
+                if (data == -2){
+                    layer.alert("仅能推荐三个商品", {icon: 5});
+                }
+                if (data == -3){
+                    layer.alert("该商品已被推荐", {icon: 5});
+                }
+            }
+        });
+    }
+</script>

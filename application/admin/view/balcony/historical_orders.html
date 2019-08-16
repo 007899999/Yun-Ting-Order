@@ -1,0 +1,77 @@
+<style>
+    table th{
+        text-align: center !important;
+        vertical-align: middle !important;
+    }
+    table td{
+        text-align: center !important;
+        vertical-align: middle !important;
+    }
+</style>
+<table id="table" class="table table-striped table-bordered table-hover table-nowrap">
+    <tr>
+        <th>商品信息</th>
+        <th>订单时间</th>
+        <th>订单金额</th>
+        <th>应付金额</th>
+        <th>实付金额</th>
+        <th>会员</th>
+        <th>订单状态</th>
+        <th>是否支付</th>
+        <th>支付类型</th>
+        <th>操作</th>
+    </tr>
+    {volist name='lists' id='v'}
+    <tr>
+        <td>
+            {if condition='$v.goods neq null'}
+                {volist name='$v.goods' id='vo'}
+                    {$vo.name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    规格：{$vo.attribute_price_names}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    单价：￥{$vo.price}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    购买数量：{$vo.num}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br>
+                {/volist}
+            {/if}
+        </td>
+        <td>{$v.createtime|date='Y-m-d H:i:s',###}</td>
+        <td>￥{$v.sum_money}</td>
+        <td>￥{$v.payable_money}</td>
+        <td>￥{$v.pay_money}</td>
+        <td>{if condition='$v.nickname eq null'}-{else/}{$v.nickname}{/if}</td>
+        <td>{if condition='$v.order_status eq 0'}未支付{else/}已支付{/if}</td>
+        <td>{if condition='$v.payment_status eq 0'}未支付{else/}已支付{/if}</td>
+        <td>{if condition='$v.payment_from eq 0'}
+                微信
+            {elseif condition='$v.payment_from eq 1'}
+                支付宝
+            {elseif condition='$v.payment_from eq 2'}
+                现金
+            {elseif condition='$v.payment_from eq 3'}
+                刷卡
+            {elseif condition='$v.payment_from eq 4'}
+                挂账
+            {else/}
+                暂无
+            {/if}
+        </td>
+        <td>
+            <a class="btn btn-xs btn-info" onclick="open_window('{:url(\'/admin/\', \'\', \'\', true)}Order/detail?ids={$v.id}','查看')">查看</a>
+        </td>
+    </tr>
+    {/volist}
+</table>
+{$orders->render()}
+<script>
+    function open_window(url,title) {
+        layer.open({
+            type: 2,
+            title: title,
+            maxmin: true, //开启最大化最小化按钮
+            area: ['893px', '600px'],
+            content: url
+        });
+    }
+</script>
+
+

@@ -1,0 +1,55 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">订单号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-order_no" class="form-control" name="row[order_no]" type="text" value="{$row.order_no|htmlentities}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">商品总价:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-sum_money" class="form-control" step="0.01" name="row[sum_money]" type="number" value="{$row.sum_money|htmlentities}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">包厢名称:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-balcony_name" class="form-control" step="0.01" name="row[balcony_name]" type="text" value="{$row.balcony_name|htmlentities}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">挂账会员:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nickname" class="form-control" step="0.01" name="row[nickname]" type="text" value="{$row.nickname|htmlentities}" readonly="readonly">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">应付金额:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-payable_money" class="form-control" step="0.01" name="row[payable_money]" type="number" value="{$row.payable_money|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">实付金额:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pay_money" class="form-control" step="0.01" name="row[pay_money]" type="number" value="{$row.pay_money ?? ''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">是否支付:</label>
+        <div class="col-xs-12 col-sm-8" >
+            <select  id="c-payment_from" class="form-control selectpicker" name="row[payment_status]">
+                <option value="0" {if condition-="$row.payment_status eq 0" selected="selected"{/if}>未支付</option>
+                <option value="1" {if condition-="$row.payment_status eq 1" selected="selected"{/if}>已支付</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+        </div>
+    </div>
+</form>

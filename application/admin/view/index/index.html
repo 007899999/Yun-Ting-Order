@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="{$config.language}">
+    <head>
+        <!-- 加载样式及META信息 -->
+        {include file="common/meta" /}
+    </head>
+    <body class="hold-transition skin-green sidebar-mini fixed {if $config.fastadmin.multiplenav}multiplenav{/if}" id="tabs">
+
+        <div class="wrapper">
+
+            <!-- 头部区域 -->
+            <header id="header" class="main-header">
+                {include file='common/header' /}
+            </header>
+
+            <!-- 左侧菜单栏 -->
+            <aside class="main-sidebar">
+                {include file='common/menu' /}
+            </aside>
+
+            <!-- 主体内容区域 -->
+            <div class="content-wrapper tab-content tab-addtabs">
+                {if $fixedmenu}
+                <div role="tabpanel" class="tab-pane {:$referermenu?'':'active'}" id="con_{$fixedmenu.id}">
+                    <iframe src="{$fixedmenu.url}?addtabs=1" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling-x="no" scrolling-y="auto" allowtransparency="yes"></iframe>
+                </div>
+                {/if}
+                {if $referermenu}
+                <div role="tabpanel" class="tab-pane active" id="con_{$referermenu.id}">
+                    <iframe src="{$referermenu.url}?addtabs=1" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling-x="no" scrolling-y="auto" allowtransparency="yes"></iframe>
+                </div>
+                {/if}
+            </div>
+
+            <!-- 底部链接,默认隐藏 -->
+            <footer class="main-footer hide">
+                <div class="pull-right hidden-xs">
+                </div>
+                <strong>Copyright &copy; 2017-2018 <a href="https://www.fastadmin.net">芸廷小坐</a>.</strong>
+            </footer>
+
+            <!-- 右侧控制栏 -->
+            <div class="control-sidebar-bg"></div>
+            {include file="common/control" /}
+
+        </div>
+
+
+        <!-- 加载JS脚本 -->
+        {include file="common/script" /}
+
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="__CDN__/assets/spop/dist/spop.css">
+        <script src="__CDN__/assets/spop/dist/spop.js"></script>
+        <script>
+            $(function() {
+                var ws = new WebSocket("ws://118.123.15.131:8282/echo");
+                ws.onopen = function(){
+
+                };
+                ws.onmessage = function (evt) {
+                    var received_msg = evt.data;
+                    var obj = JSON.parse(received_msg); //由JSON字符串转换为JSON对象
+                    var code = obj.code;
+                    switch (code) {
+                        case 901:
+                            $.ajax({
+                                type:"POST",
+                                url:"http://yunting.mumarenkj.com/web/Websocket/bindClient",  //绑定id
+                                dataType:"json",
+                                data:{
+                                    balcony_id:"admin",
+                                    client_id:obj.data.client_id
+                                },
+                                success:function(data){
+
+                                },
+                                error:function (data) {
+
+                                }
+                            });
+                            break;
+                        default:
+                            var msg = obj.msg;
+                            spop({
+                                template: msg,
+                                position  : 'bottom-right',
+                                style: 'error'
+                            });
+                            break;
+                    }
+                };
+
+                ws.onclose = function(e){
+
+                };
+            });
+
+        </script>
+    </body>
+
+</html>

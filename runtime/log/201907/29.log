@@ -1,0 +1,34 @@
+---------------------------------------------------------------
+[ 2019-07-29T17:09:59+08:00 ] 0.0.0.0 GET localhost/fastadmin/public/web/ali/ali_pay
+[运行时间：0.116358s] [吞吐率：8.59req/s] [内存消耗：2,102.29kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001454s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008483s ]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'ali',
+    2 => 'ali_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3438598144; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1557455492,1559184235; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1560908421; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1561946922,1562294920,1562654779,1562741274',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004177s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000050s ]
+[ info ] [ RUN ] app\web\controller\Ali->ali_pay[ E:\phpStudy\PHPTutorial\WWW\fastadmin\application\web\controller\Ali.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1024]invalid [default store dir]: /tmp/[E:\phpStudy\PHPTutorial\WWW\fastadmin\vendor\alipayapi\lotusphp_runtime\Lotus.php:61]
